@@ -1,4 +1,7 @@
 Demon::Application.routes.draw do
+  resources :users
+  
+  
   get "users/new"
   
    get '/signup',  :to => 'users#new'
