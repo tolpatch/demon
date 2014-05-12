@@ -8,7 +8,7 @@ gem 'sqlite3'
 
 gem 'annotate'
 
-gem 'protected_attributes'
+gem 'gravatar_image_tag' 
 
 
 # Use SCSS for stylesheets

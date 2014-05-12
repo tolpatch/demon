@@ -39,6 +39,7 @@ GEM
     coffee-script-source (1.7.0)
     erubis (2.7.0)
     execjs (2.0.2)
+    gravatar_image_tag (1.2.0)
     hike (1.2.3)
     i18n (0.6.9)
     jbuilder (1.5.3)
@@ -55,8 +56,6 @@ GEM
     minitest (4.7.5)
     multi_json (1.10.0)
     polyglot (0.3.4)
-    protected_attributes (1.0.7)
-      activemodel (>= 4.0.1, < 5.0)
     rack (1.5.2)
     rack-test (0.6.2)
       rack (>= 1.0)
@@ -114,9 +113,9 @@ PLATFORMS
 DEPENDENCIES
   annotate
   coffee-rails (~> 4.0.0)
+  gravatar_image_tag
   jbuilder (~> 1.2)
   jquery-rails
-  protected_attributes
   rails (= 4.0.2)
   sass-rails (~> 4.0.0)
   sdoc
