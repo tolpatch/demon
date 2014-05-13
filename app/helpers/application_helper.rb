@@ -1,5 +1,9 @@
 module ApplicationHelper
 
+  def logo
+    image_tag("logo.png", :alt => "Application Exemple", :class => "round")
+  end
+
   # Retourner un titre basé sur la page.
   def titre                   #nouvelle definition
     base_titre = "Simple App du Tutoriel Ruby on Rails"    #variable0

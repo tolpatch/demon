@@ -12,6 +12,7 @@ def create
   def create
     @user = User.new(params[:user].permit(:nom, :email,:password,:password_confirmation))
     if @user.save
+	sign_in @user
 	 flash[:success] = "Bienvenue dans l'Application Exemple!"
      redirect_to @user
     else
